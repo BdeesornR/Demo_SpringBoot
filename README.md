@@ -1,5 +1,6 @@
 # Demo SpringBoot
-Demo application for SpringBoot
+
+Demo application for SpringBoot, basic test included.
 
 ---
 
