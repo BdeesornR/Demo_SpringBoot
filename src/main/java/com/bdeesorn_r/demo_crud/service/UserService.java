@@ -25,7 +25,7 @@ public class UserService {
     }
 
     public UserDto getUser(String username) {
-        List<UserDao> userList = userRepository.findByUsernameAndStatus(username, Status.ACTIVE.value);
+        List<UserDao> userList = userRepository.findByUsernameAndStatus(username, null);
 
         if (CollectionUtils.isEmpty(userList) || userList.size() > 1) {
             return null;
